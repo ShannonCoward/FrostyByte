@@ -18,6 +18,29 @@ class GameScene: SKScene {
         snowman = childNodeWithName("snowman") as! SKSpriteNode
         
         buildLayout(stageLayout)
+        
+        let atlas = SKTextureAtlas(named: "snowman")
+        
+        var textures: [SKTexture] = []
+        
+        //NOT in correct order
+//        for textureName in atlas.textureNames as! [String] {
+        
+        for i in 0..<atlas.textureNames.count {
+        
+            let texture = SKTexture(imageNamed: "snowman\(i)")
+            
+                println("snowman\(i)")
+            
+                textures.append(texture)
+        
+        }
+        
+        let action = SKAction.animateWithTextures(textures, timePerFrame: 0.1)
+        
+        let forever = SKAction.repeatActionForever(action)
+        
+        snowman.runAction(forever)
       
     }
     

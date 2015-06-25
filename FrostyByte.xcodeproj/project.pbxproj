@@ -15,6 +15,7 @@
 		04E4C7411B3AF3DE00DA83D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E4C7401B3AF3DE00DA83D7 /* Images.xcassets */; };
 		04E4C7441B3AF3DE00DA83D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E4C7421B3AF3DE00DA83D7 /* LaunchScreen.xib */; };
 		04E4C7501B3AF3DE00DA83D7 /* FrostyByteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4C74F1B3AF3DE00DA83D7 /* FrostyByteTests.swift */; };
+		04EB413B1B3C39B100B29359 /* snowman.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 04EB413A1B3C39B100B29359 /* snowman.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		04E4C7491B3AF3DE00DA83D7 /* FrostyByteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrostyByteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E4C74E1B3AF3DE00DA83D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E4C74F1B3AF3DE00DA83D7 /* FrostyByteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrostyByteTests.swift; sourceTree = "<group>"; };
+		04EB413A1B3C39B100B29359 /* snowman.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = snowman.atlas; path = ../snowman.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +83,10 @@
 		04E4C7321B3AF3DE00DA83D7 /* FrostyByte */ = {
 			isa = PBXGroup;
 			children = (
-				04E4C7351B3AF3DE00DA83D7 /* AppDelegate.swift */,
 				04E4C7371B3AF3DE00DA83D7 /* GameScene.sks */,
 				04E4C7391B3AF3DE00DA83D7 /* GameScene.swift */,
 				04E4C73B1B3AF3DE00DA83D7 /* GameViewController.swift */,
 				04E4C73D1B3AF3DE00DA83D7 /* Main.storyboard */,
-				04E4C7401B3AF3DE00DA83D7 /* Images.xcassets */,
-				04E4C7421B3AF3DE00DA83D7 /* LaunchScreen.xib */,
 				04E4C7331B3AF3DE00DA83D7 /* Supporting Files */,
 			);
 			path = FrostyByte;
@@ -96,7 +95,11 @@
 		04E4C7331B3AF3DE00DA83D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04E4C7351B3AF3DE00DA83D7 /* AppDelegate.swift */,
 				04E4C7341B3AF3DE00DA83D7 /* Info.plist */,
+				04E4C7421B3AF3DE00DA83D7 /* LaunchScreen.xib */,
+				04EB413A1B3C39B100B29359 /* snowman.atlas */,
+				04E4C7401B3AF3DE00DA83D7 /* Images.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				04E4C7441B3AF3DE00DA83D7 /* LaunchScreen.xib in Resources */,
 				04E4C7411B3AF3DE00DA83D7 /* Images.xcassets in Resources */,
 				04E4C7381B3AF3DE00DA83D7 /* GameScene.sks in Resources */,
+				04EB413B1B3C39B100B29359 /* snowman.atlas in Resources */,
 				04E4C73F1B3AF3DE00DA83D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +421,7 @@
 				04E4C7551B3AF3DE00DA83D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04E4C7561B3AF3DE00DA83D7 /* Build configuration list for PBXNativeTarget "FrostyByteTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +430,7 @@
 				04E4C7581B3AF3DE00DA83D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
